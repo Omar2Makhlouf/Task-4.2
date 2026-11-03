@@ -20,3 +20,14 @@
 .field-grid .readonly-input{background:#f6f4f8;color:#696278;cursor:default}
 .field-grid .email-helper{font-size:11px;color:#978fa2;font-weight:400;line-height:1.4}
 @media(max-width:600px){.detail-panel{padding:22px}.detail-meta{grid-template-columns:1fr}.detail-meta p{margin:6px 0}}
+
+.listing-tabs{display:flex;gap:10px;border-bottom:1px solid #e5e1e8;margin-bottom:20px}.listing-tabs button{border:0;border-bottom:2px solid transparent;padding:10px 14px;background:transparent;color:#6d667d}.listing-tabs button.on{border-bottom-color:#7956c3;color:#56428a;font-weight:700}
+
+.owner-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.delete-listing{border:1px solid #efd4d2;background:#fff7f6;color:#a44b48;padding:12px 17px;border-radius:10px;font-weight:700;font-size:12px}.delete-listing:hover{background:#fcebea}
+
+.confirm-overlay{z-index:20;background:#211b3188;backdrop-filter:blur(3px)}.confirm-dialog{width:min(420px,100%);padding:30px;border-radius:20px;background:#fff;box-shadow:0 24px 80px #16112855;text-align:center;animation:confirm-pop .18s ease-out}.confirm-icon{display:grid;place-items:center;width:46px;height:46px;margin:0 auto 14px;border-radius:50%;background:#fff0ee;color:#b45457;font-size:24px;font-weight:800}.confirm-dialog h2{font:700 24px Outfit;margin:0 0 10px;color:#302743}.confirm-dialog p{color:#777181;font-size:14px;line-height:1.55;margin:0}.confirm-dialog p strong{color:#4d435e}.confirm-actions{display:flex;justify-content:center;gap:10px;margin-top:24px}.confirm-actions button{border-radius:10px;padding:11px 18px;font-size:13px;font-weight:700}.cancel-delete{border:1px solid #e4dfeb;background:#fff;color:#625a70}.confirm-delete{border:1px solid #b94e4b;background:#b94e4b;color:#fff}.confirm-delete:hover{background:#a94340}@keyframes confirm-pop{from{opacity:0;transform:scale(.94) translateY(8px)}to{opacity:1;transform:scale(1) translateY(0)}}@media(max-width:600px){.confirm-dialog{padding:25px 20px}.confirm-actions{flex-direction:column-reverse}.confirm-actions button{width:100%}}
+
+.promo-actions{display:flex;gap:10px;flex-wrap:wrap}.promo-actions button{min-width:142px;display:flex;align-items:center;justify-content:space-between}.promo-actions button span{margin-left:12px}
+@media(max-width:600px){.promo-actions{gap:8px}.promo-actions button{min-width:0;flex:1}}
+
+.promo-actions button{min-height:46px;padding:12px 16px;border:1px solid #d5c6f1;border-radius:12px;background:#7956c3;color:#fff;font-weight:700;box-shadow:0 5px 12px #57427d24;transition:transform .16s ease,background .16s ease,box-shadow .16s ease}.promo-actions button:hover{background:#6845b0;box-shadow:0 8px 16px #57427d35;transform:translateY(-2px)}.promo-actions button:focus-visible{outline:3px solid #9f86d9;outline-offset:3px}.promo-actions button span{color:#eee7ff}
